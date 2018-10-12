@@ -204,7 +204,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 nv_disable=1 darkwake=10</string>
+		<string>dart=0 nv_disable=1 darkwake=10 kext-dev-mode=1 -uia_ignore_rmcf</string>
 		<key>#DefaultVolume</key>
 		<string>MojaveSSD</string>
 		<key>NeverHibernate</key>
