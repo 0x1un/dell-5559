@@ -11,16 +11,17 @@ This repo is for the 15" Dell Inspiron 5559 i5-6200U. It should work for the 17"
 * Microphone (webcam/mic commbo, but no webcam)
 * Bluetooth (Intel card still present, so no wifi)
 * Display brightness
-* IGPU
+* IGPU *This computer has 64mb so need to use kext patch*
 * Sleep
 * Touchscreen (Completely independent of the OS. macOS does not natively support multi-touch)
 * Touchpad/Trackpad with all gestures
-* Speakers
+* Speakers *Install VoodooHDA into Clover to prevent output reset on reboot*
 * USB 3 and 2
 
 # Persistent Bugs
 
-At this time you have to rebuild kext cache every few reboots. If not done, the computer will panic and loop until you enter a fake id to boot and then rebuild kext cache. Internet speeds are crippled. With both LAN and USB 3 WiFi adapter. Due these factors I am no longer actively using Mojave. I downgraded to High Sierra.
+* None at the moment
+
 
 # How to use
 
@@ -28,4 +29,5 @@ The best way to use this EFI config is visit the [releases page](https://github.
 
 # TO DO
 
-Fix backlight buttons, replace intel wifi card, and enable webcam.
+* Fix backlight buttons
+* Webcam is Intel F200 UVC and appears active but displays no picture. AnyiSight kext does not correct this. Could be solved using USB patching instead of InjectAll. `librealsense` does not detect it at all.

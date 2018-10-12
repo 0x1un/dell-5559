@@ -436,7 +436,7 @@
 		<key>AppleRTC</key>
 		<true/>
 		<key>DellSMBIOSPatch</key>
-		<false/>
+		<true/>
 		<key>ForceKextsToLoad</key>
 		<array>
 			<string>\System\Library\Extensions\IONetworkingFamily.kext</string>
@@ -465,7 +465,7 @@
 				<key>Comment</key>
 				<string>0x19160000/etc, 32MB BIOS, 19MB framebuffer 9MB cursor bytes (credit RehabMan)</string>
 				<key>Disabled</key>
-				<false/>
+				<true/>
 				<key>Find</key>
 				<data>AAAgAgAAUAE=</data>
 				<key>InfoPlistPatch</key>
@@ -545,6 +545,16 @@
 				<key>Replace</key>
 				<data>g/sPkJCQkJCQ</data>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Enable TRIM for SSD</string>
+				<key>Name</key>
+				<string>com.apple.iokit.IOAHCIBlockStorage</string>
+				<key>Find</key>
+				<data>AEFQUExFIFNTRAA=</data>
+				<key>Replace</key>
+				<data>AAAAAAAAAAAAAAA=</data>
+			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
@@ -556,6 +566,8 @@
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
+		<key>Mobile</key>
+		<true/>
 		<key>ProductName</key>
 		<string>MacBookPro13,1</string>
 		<key>Trust</key>
