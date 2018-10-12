@@ -25,7 +25,9 @@ This repo is for the 15" Dell Inspiron 5559 i5-6200U. It should work for the 17"
 
 # How to use
 
-The best way to use this EFI config is visit the [releases page](https://github.com/cbabb/dell-5559/releases). Create an empty `EFI` folder on the mounted EFI partition of the macOS disk. Drag both the `BOOT` and `CLOVER` folders into it. There are no serials present. You will need to generate it with Clover config.
+Clone this repo or visit the releases tab.
+
+Post-install this computer does not need USB inject all or any of the USB patches in config. You can remove them.
 
 # TO DO
 
