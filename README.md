@@ -11,11 +11,11 @@ This repo is for the 15" Dell Inspiron 5559 i5-6200U. It should work for the 17"
 * Microphone (webcam/mic commbo, but no webcam)
 * Bluetooth (Intel card still present, so no wifi)
 * Display brightness
-* IGPU *This computer has 64mb so need to use kext patch*
+* IGPU *NOTE: This computer has 64mb so no need to use kext patch*
 * Sleep
 * Touchscreen (Completely independent of the OS. macOS does not natively support multi-touch)
 * Touchpad/Trackpad with all gestures
-* Speakers *Install VoodooHDA into Clover to prevent output reset on reboot*
+* Speakers *Note: Install VoodooHDA into Clover to prevent output reset on reboot*
 * USB 3 and 2
 
 # Persistent Bugs
