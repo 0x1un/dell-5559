@@ -12,7 +12,7 @@
 		<true/>
 		<key>Comment-DisabledAML</key>
 		<string>Disable other forms of CPU PM due to SSDT/Generate/PluginType=true</string>
-		<key>DisabledAML</key>
+		<key>#DisabledAML</key>
 		<array>
 			<string>SSDT.aml</string>
 			<string>SSDT-XCPM.aml</string>
@@ -381,8 +381,8 @@
 			</dict>
 			<key>PciRoot(0)/Pci(0x1f,3)</key>
 			<dict>
-				<key>#layout-id</key>
-				<integer>2</integer>
+				<key>layout-id</key>
+				<integer>28</integer>
 				<key>#PinConfigurations</key>
 				<data></data>
 			</dict>
