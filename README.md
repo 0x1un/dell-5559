@@ -4,18 +4,18 @@ This repo is for the 15" Dell Inspiron 5559 i5-6200U. It should work for the 17"
 
 # Supported Versions
 
-`config.plist` has a seperate version for Sierra/High Sierra and Mojave.
+`config.plist` is for Mojave.
 
 # What works (and what doesn't)
 
-* Microphone (webcam/mic commbo, but no webcam)
+* Microphone (webcam/mic combo, but no webcam)
 * Bluetooth (Intel card still present, so no wifi)
 * Display brightness (buttons do not)
-* IGPU *NOTE: This computer has 64mb so no need to use kext patch*
+* IGPU *NOTE: This computer has 64mb so no need to use any patching.*
 * Sleep
 * Touchscreen *NOTE: Completely independent of the OS. macOS does not natively support multi-touch*
 * Touchpad/Trackpad with all gestures
-* Speakers *Note: Install VoodooHDA into Clover to prevent output reset on reboot*
+* Speakers *Note: Use BoomAudio or eqMac to eliminate flat sound.*
 * USB 3 and 2
 
 # Persistent Bugs
@@ -24,11 +24,11 @@ This repo is for the 15" Dell Inspiron 5559 i5-6200U. It should work for the 17"
 
 # How to use
 
-Clone this repo or visit the releases tab.
+Clone this repo
 
 # Post-Install
 
-* This computer does not need USB inject all or any of the USB patches in config. Do not inject or patch anything.
+* This computer does not need any of the USB patches in config. USB Inject works but you need to patch the SSDT to properly show internal/external.
 * This computer functions better with a generated SSDT for power management. Battery life is the same as Windows.
 * Backlight SSDT needs to be generated before it will work.
 * Install CodecCommander to S/L/E
