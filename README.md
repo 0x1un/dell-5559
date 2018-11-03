@@ -21,6 +21,7 @@ This repo is for the 15" Dell Inspiron 5559 i5-6200U. It should work for the 17"
 # Persistent Bugs
 
 * CPU does not idle at 800MHz. It idles as low as 1.10GHz. Windows idles at 800MHz. Nothing appears to solve that.
+* Upon reboot, WiFi or Bluetooth will be disabled. Shutdown completely to fix.
 
 # How to use
 
