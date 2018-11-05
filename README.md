@@ -66,4 +66,4 @@ Move the following kexts:
 
 # Notes
 
-If your touchpad is not working, press `FN` + `PrtScr`. Pressing these buttons disables and enables it.
+If your touchpad is not working, press `FN` + `PrtScr`. Pressing these buttons disables and enables it. Battery life is great. It's actually better than Windows. Video playback lasts for 5 hours. Casual web browsing using Safari lasts 6 hours.
