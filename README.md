@@ -1,3 +1,5 @@
+*I no longer own this laptop. Since I am unable to test anything, I am marking this as archived.*
+
 # Dell Inspiron 5559
 
 This repo is for the 15" Dell Inspiron 5559 i5-6200U. It should work for the 17" model.
